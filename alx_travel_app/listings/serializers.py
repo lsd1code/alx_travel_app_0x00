@@ -22,5 +22,13 @@ class ListingSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Listing
-        fields = ['property_id', 'host_id', 'name', 'city',
-                  'country', 'zip_code', 'price_per_night', 'created_at']
+        fields = [
+            'property_id',
+            'host_id',
+            'name',
+            'city',
+            'country',
+            'zip_code',
+            'price_per_night',
+            'created_at'
+        ]
