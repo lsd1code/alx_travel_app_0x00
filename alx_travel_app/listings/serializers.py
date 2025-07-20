@@ -10,7 +10,7 @@ class LocationSerializer(serializers.ModelSerializer):
 
 class BookingSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Listing
+        model = Booking
         fields = '__all__'
 
 
